@@ -19,7 +19,6 @@ header {
   max-width: 1140px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
   background-color: #800080;
 }
 
@@ -33,4 +32,26 @@ header {
   display: flex;
   flex: 1;
   justify-content: center;
+}
+
+
+#page--welcome {
+  width: 100vw;
+  height: calc(100vh - 50px);
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #AED677;
+}
+
+.welcome {
+  display: flex;
+  background-color: #49DBEF;
+}
+
+.form {
+  display: flex;
+  flex: 1;
+  background-color: #EE71A2;
 }
