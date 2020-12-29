@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+
+
+
+
 header {
   height: 50px;
   display: flex;
@@ -16,23 +20,62 @@ header {
 
 .container {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1240px;
   display: flex;
   align-items: center;
-  background-color: #800080;
 }
 
+
+
 .logo {
-  width: 100px;
+  width: 180px;
   display: flex;
-  justify-content: center
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  border: 1px solid #FFF;
 }
+
+.logo .balanca {
+  font-size: 20px;
+  color: #FFF;
+}
+
+
 
 .menu {
   display: flex;
   flex: 1;
-  justify-content: center;
+  justify-content: flex-end;
 }
+
+ul {
+  display: flex;  
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  display: inline-block;
+  color: #FFF;
+
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+li a:hover {
+  background: #333;
+}
+
+
+
+
+
+
 
 
 #page--welcome {
@@ -46,12 +89,55 @@ header {
 }
 
 .welcome {
+  height: 100%;
   display: flex;
+  flex-direction: column;
   background-color: #49DBEF;
+  flex: 1;
+
 }
 
 .form {
+  width: 500px;
+  height: 100%;
   display: flex;
-  flex: 1;
+  flex-direction: column;
+  align-items: center;
   background-color: #EE71A2;
+}
+
+.form--caixa {
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.form--caixa h2 {
+  font-size: 25px;
+  padding: 20px 10px;
+}
+
+
+.form--caixa input {
+  width: 90%;
+  padding: 15px;
+  margin: 18px auto;
+}
+
+.form--caixa select {
+  width: 90%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.form--caixa button {
+  width: 90%;
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 70px;
+}
+
+.form--rodape {
+  width: 90%;
+  margin-top: 50px;
+  text-align: center;
 }
