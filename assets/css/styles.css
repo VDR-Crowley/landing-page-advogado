@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  background-color: #A90017;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #800080;
+}
+
+.logo {
+  width: 100px;
+  display: flex;
+  justify-content: center
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
